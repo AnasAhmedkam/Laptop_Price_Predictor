@@ -19,7 +19,7 @@ st.markdown("### 📱 Android App")
 
 st.link_button(
     "⬇️ Download Android App",
-    "https://github.com/AnasAhmedkam/laptop-price-predictor/releases/download/v1.0.0/app-release.apk"
+    "https://github.com/AnasAhmedkam/laptop-price-predictor/releases/download/v2.0/app-release.apk"
 )
 
 st.divider()
