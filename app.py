@@ -15,6 +15,15 @@ model = joblib.load("laptop_price_model.pkl")
 
 st.title("💻 Laptop Price Predictor")
 
+st.markdown("### 📱 Android App")
+
+st.link_button(
+    "⬇️ Download Android App",
+    "https://github.com/AnasAhmedkam/laptop-price-predictor/releases/download/v1.0.0/app-release.apk"
+)
+
+st.divider()
+
 company = st.selectbox(
     "Brand",
     ["Apple", "HP", "Lenovo", "Dell", "Asus", "Acer", "MSI", "Toshiba", "Samsung", "Other"]
